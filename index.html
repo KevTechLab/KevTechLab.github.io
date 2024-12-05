@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="node_modules/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <title>Portfolio GitHub</title>
 </head>
 <body>
     <!-- Header with navigation links that scroll to sections -->
     <header>
-        <a href="#home" class="logo">KevTechLabs</a>
+        <a href="#home" class="logo">KevDevLabs</a>
         <div class="social-icons">
             <a href="https://github.com/KevTechLab/KevTechLab"><i class="fa-brands fa-github"></i></a>
         </div>
@@ -43,98 +44,78 @@
     };
      </script>
     <section id="skills" class="skills">
-        <h2>Mis Habilidades</h2>
+        <h2>Habilidades</h2>
         <p>Estas son algunas de las tecnologías que manejo:</p>
         <div class="skills-cards">
             <div class="card">
-                <h3>Lenguajes de Programación</h3>
+                <h3>Lenguajes y Tecnologías Web</h3>
                 <ul>
+                    <li>SQL</li>
                     <li>JavaScript</li>
-                    <li>Python</li>
-                    <li>Java</li>
-                    <li>C#</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
                 </ul>
             </div>
             <div class="card">
-                <h3>Frameworks y Librerías</h3>
+                <h3>Frameworks, Librerías y Entornos</h3>
                 <ul>
                     <li>React</li>
-                    <li>Node.js</li>
                     <li>Spring Boot</li>
-                    <li>Vue.js</li>
+                    <li>Bootstrap</li>
+                    <li>Node.js</li>
                 </ul>
             </div>
             <div class="card">
-                <h3>Base de Datos</h3>
+                <h3>Herramientas y Plataformas</h3>
                 <ul>
-                    <li>MySQL</li>
-                    <li>MongoDB</li>
-                    <li>PostgreSQL</li>
-                </ul>
-            </div>
-            <div class="card">
-                <h3>Herramientas y Tecnologías</h3>
-                <ul>
+                    <li>VS Code</li>
+                    <li>MySQL & SQL Server</li>
                     <li>Git & GitHub</li>
-                    <li>Docker</li>
-                    <li>AWS</li>
-                    <li>CI/CD</li>
+                    <li>Firebase</li>
                 </ul>
-            </div>
+            </div> 
         </div>
     </section>
 
     <!-- Education Section -->
     <section id="education" class="education">
-        <h2>Mi Formación Académica</h2>
+        <h2>Formación Académica</h2>
         <div class="education-cards">
             <div class="card">
-                <h3>Ingeniería de Software</h3>
-                <p>Universidad Tecnológica de Colombia - 2024 - Actualidad</p>
-                <p>Adquiriendo conocimientos en desarrollo de aplicaciones, arquitectura de software y metodologías ágiles.</p>
+                <h3>Técnico en Sistemas</h3>
+                <p>SENA - 2021</p>
+                <p>Tengo experiencia en la configuración de redes informáticas y resolución de problemas técnicos, garantizando el buen funcionamiento de los sistemas.</p>
             </div>
             <div class="card">
-                <h3>Curso de Desarrollo Web Full Stack</h3>
-                <p>Platzi - 2023</p>
-                <p>Dominé tecnologías como HTML, CSS, JavaScript, Node.js, React y bases de datos NoSQL.</p>
+                <h3>Ingeniería de Software</h3>
+                <p>Tecnológico de Antioquia - Mitad de carrea - Actualidad</p>
+                <p>Adquiriendo experiencia en el desarrollo y diseño de aplicaciones, implementación de arquitecturas de software modernas y el uso de metodologías ágiles para optimizar procesos de desarrollo.</p>
             </div>
-        </div>
     </section>
 
     <!-- Experience Section -->
     <section id="experience" class="experience">
-        <h2>Mi Experiencia</h2>
+        <h2>Experiencia profesional</h2>
         <div class="experience-cards">
             <div class="card">
-                <h3>Desarrollador Backend</h3>
-                <p>Empresa XYZ - 2023 - Actualidad</p>
-                <p>Desarrollo de aplicaciones en Java y Spring Boot, optimización de bases de datos y APIs RESTful.</p>
+                <p>Aunque actualmente no cuento con experiencia profesional, estoy en busca de oportunidades para aplicar mis conocimientos. Estoy comprometido a aprender y a enfrentar nuevos desafíos con actitud positiva y disposición para crecer en el campo de la tecnología.</p>
             </div>
-            <div class="card">
-                <h3>Interno de Software</h3>
-                <p>Empresa ABC - 2022 - 2023</p>
-                <p>Trabajo en proyectos de front-end con React, integración con servicios RESTful y pruebas automatizadas.</p>
-            </div>
-        </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <h2>Contáctame</h2>
-        <p>Si deseas saber más sobre mis proyectos o colaborar en alguna iniciativa, no dudes en contactarme.</p>
-        <form action="#" method="post">
-            <label for="name">Nombre:</label>
-            <input type="text" id="name" name="name" required>
-            
-            <label for="email">Correo Electrónico:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="message">Mensaje:</label>
-            <textarea id="message" name="message" required></textarea>
-            
-            <button type="submit">Enviar</button>
-        </form>
+        <div class="contact-options">
+            <a href="mailto:kevinfrong129@gmail.com?subject=Consulta&body=Hola,%20me%20gustaría%20contactarte%20por%20tu%20perfil." class="contact-option">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="tel:+573150480989" class="contact-option">
+                <i class="fa-solid fa-phone"></i>
+            </a>
+            <a href="https://wa.me/3150480989" class="contact-option">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+        </div>
     </section>
-
 </body>
 </html>
